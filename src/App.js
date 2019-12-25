@@ -1,20 +1,18 @@
 import React from 'react';
-import { Provider } from 'react-redux';
-import store from './redux/store'
+
 import './App.css';
-import CakeContainer from './component/CakeContainer';
-import hooksCakeContainer from './component/hooksCakeContainer';
-import IceContainer from './component/iceContainer';
+
+
 
 function App() {
   return (
-    <Provider store={store}>
+    
       <div className="App">
         {/* <hooksCakeContainer/>  */}
-        <IceContainer/>
-        <CakeContainer />
+        <p>Hello Movies</p>
+        
       </div>
-    </Provider>
+    
   );
 }
 
